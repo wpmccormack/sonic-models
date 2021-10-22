@@ -44,3 +44,8 @@ output [
     label_filename: "particlenet_labels.txt"
   }
 ]
+optimization { execution_accelerators {
+  gpu_execution_accelerator : [ {
+    name : "tensorrt"
+    parameters { key: "precision_mode" value: "FP32" }}]
+}}
