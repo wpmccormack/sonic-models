@@ -48,3 +48,8 @@ output [
 dynamic_batching {
     preferred_batch_size: [ 16, 32 ]
 }
+optimization { execution_accelerators {
+  gpu_execution_accelerator : [ {
+    name : "tensorrt"
+    parameters { key: "precision_mode" value: "FP32" }}]
+}}
