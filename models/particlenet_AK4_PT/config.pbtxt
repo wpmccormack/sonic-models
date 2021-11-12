@@ -8,32 +8,32 @@ input [
   {
     name: "pf_points__0"
     data_type: TYPE_FP32
-    dims: [ 2, 100 ]
+    dims: [ 2, 50 ]
   },
   {
     name: "pf_features__1"
     data_type: TYPE_FP32
-    dims: [ 20, 100 ]
+    dims: [ 20, 50 ]
   },
   {
     name: "pf_mask__2"
     data_type: TYPE_FP32
-    dims: [ 1, 100 ]
+    dims: [ 1, 50 ]
   },
   {
     name: "sv_points__3"
     data_type: TYPE_FP32
-    dims: [ 2, 10 ]
+    dims: [ 2, 5 ]
   },
   {
     name: "sv_features__4"
     data_type: TYPE_FP32
-    dims: [ 11, 10 ]
+    dims: [ 11, 5 ]
   },
   {
     name: "sv_mask__5"
     data_type: TYPE_FP32
-    dims: [ 1, 10 ]
+    dims: [ 1, 5 ]
   }
 ]
 output [
